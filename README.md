@@ -19,3 +19,17 @@ O Webpack é um empacotador de módulos gratuito e de código aberto para JavaSc
 O que são Props?
 
 Props é uma abreviação para Properties que significa propriedade em português, são como atributos do HTML, e é o único argumento que todos os componentes do react recebem. Obs.: Componente nenhum pode alterar o valor das props, eles apenas as lêem.
+
+O que são prop children?
+
+Elas servem para pegarmos todo o valor que passamos para dentro de um componente.
+Elementos filhos em React não precisam ser componentes, eles podem ser qualquer coisa.
+Nós podemos passar qualquer expressão JavaScript como elemento filho. Isso inclui funções.
+
+O que seria tipar as props?
+
+Basicamente definir quais as propriedades que o componente pode receber, quais propriedades são obrigatórias para o componente funcionar bem como qual tipo de cada dado que vamos passar para o componente.
+
+O que são props default?
+
+As props default são valores que definimos para serem renderizados caso este não tenho sido definido diretamente no componente.

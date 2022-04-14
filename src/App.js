@@ -13,6 +13,7 @@ function App() {
             <hr />
 
             <Post 
+                likes={20}
                 post={{
                     title: 'Titulo da noticia 01',
                     subtitle: 'Subtitulo da noticia 01',
