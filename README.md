@@ -38,3 +38,6 @@ O que é o State no React?
 
 É uma forma de nós armazenarmos informções de forma que toda vez que estes forem alterados, nós façamos com que o React atualize a interface do usuário também.
 
+O que são funções de Callback via Props?
+
+Basicamente são funcões que criamos dentro do componente pai passamos via propriedade para dentro do componente filho e essa função pode ou não fazer uma alteração no componente pai.
