@@ -3,34 +3,31 @@ import React from 'react';
 import Post from './Post';
 import Header from './Header';
 
+const posts = [
+    { title: 'Title#01', subtite: 'Sub#01', likes: 20 },
+    { title: 'Title#02', subtite: 'Sub#02', likes: 10 },
+    { title: 'Title#03', subtite: 'Sub#03', likes: 50 },
+];
+
 function App() {
     return (
         <>
-            <Header title="JStack's Blog">
+            <Header>
                 <h2>Posts da Semana</h2>
             </Header> 
 
             <hr />
 
-            <Post 
-                likes={20}
-                post={{
-                    title: 'Titulo da noticia 01',
-                    subtitle: 'Subtitulo da noticia 01',
-                }}
-            />
-            <Post 
-                post={{
-                    title: 'Titulo da noticia 02',
-                    subtitle: 'Subtitulo da noticia 02',
-                }}
-            />
-            <Post 
-                post={{
-                    title: 'Titulo da noticia 03',
-                    subtitle: 'Subtitulo da noticia 03',
-                }}
-            />
+            {posts.map(post => (
+                <Post 
+                    key={post.title}
+                    likes={post.likes}
+                    post={{
+                        title: post.title,
+                        subtitle: post.subtitle,
+                    }}
+                />
+            ))}
         </>
     );
 }
