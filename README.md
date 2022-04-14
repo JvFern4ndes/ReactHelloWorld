@@ -33,3 +33,8 @@ Basicamente definir quais as propriedades que o componente pode receber, quais p
 O que são props default?
 
 As props default são valores que definimos para serem renderizados caso este não tenho sido definido diretamente no componente.
+
+O que é o State no React?
+
+É uma forma de nós armazenarmos informções de forma que toda vez que estes forem alterados, nós façamos com que o React atualize a interface do usuário também.
+
