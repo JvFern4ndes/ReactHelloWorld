@@ -56,3 +56,12 @@ Temos basicamente 3 diferenças ao trabalhar com inline styles dentro do react, 
 Sobre trabalhar com arquivos CSS dentro do React...
 
 Nós precisamos apenas configurar o webpack para que ele consiga interpretar arquivos com a extensão css através dos loaders ('style-loader' e 'css-loader', e nesta ordem para não crashar), e então podemos sair importando nossos arquivos CSS sem nenhum problema. (É opcional colocarmos um exclude:NodeModules).
+
+O que é o CSS Modules?
+
+Pode ser configurado no webpack do arquivo e permite com que utilizemos as classes css de nomes iguais em arquivos diferentes sem que estas interfiram ou se sobreponham umas às outras, isto o ocorre pois o CSS Modules transforma essas classes ".title" por exemplo, em um hash.
+
+O que é o SASS?
+
+É um pré processador de CSS, ou seja, ele introduz dentro do CSS algumas funcionalidades que normalmente não teriamos dentro dele. Existem diversos pré processadores de CSS e o SASS é mais adequado para quem deseja trabalhar com o CSS na mão.
+Para utilizarmos o SASS, devemos instalar as bibliotecas "sass" e "sass-loader" e configura-las no webpackconfig.
