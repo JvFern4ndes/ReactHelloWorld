@@ -65,3 +65,9 @@ O que é o SASS?
 
 É um pré processador de CSS, ou seja, ele introduz dentro do CSS algumas funcionalidades que normalmente não teriamos dentro dele. Existem diversos pré processadores de CSS e o SASS é mais adequado para quem deseja trabalhar com o CSS na mão.
 Para utilizarmos o SASS, devemos instalar as bibliotecas "sass" e "sass-loader" e configura-las no webpackconfig.
+
+O que são Styled Components?
+
+É o CSS in JS, o principal beneficio do styled components é que ele trabalha com scoped classes e id's por padrão, ou seja, ele exerce o papel do CSS modules de criar hash's para as classes por padrão, nunca teremos conflitos por conta desse quesito.
+Outro ponto é a legibilidade, não vamos usar diretamente dentro do componente as tags HTML, vamos usar componentes estilizados.
+E o terceiro ponto é que o styled components roda dentro da web e do reactive native com a mesma sintaxe.
