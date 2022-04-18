@@ -52,3 +52,7 @@ Temos basicamente 3 diferenças ao trabalhar com inline styles dentro do react, 
 - Não passamos uma string para a propriedade style e sim um objeto.
 - Ao atribuir valores para os nossos atributos, devemos atribuilos como uma string, ou seja, utilizando aspas.
 - Nas propriedades que possuem hifen, como por exemplo "font-family: " devemos usar camel case, sendo assim, obteremos ao invés disso "fontFamily: ".
+
+Sobre trabalhar com arquivos CSS dentro do React...
+
+Nós precisamos apenas configurar o webpack para que ele consiga interpretar arquivos com a extensão css através dos loaders ('style-loader' e 'css-loader', e nesta ordem para não crashar), e então podemos sair importando nossos arquivos CSS sem nenhum problema. (É opcional colocarmos um exclude:NodeModules).
