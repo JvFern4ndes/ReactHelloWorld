@@ -40,8 +40,15 @@ O que é o State no React?
 
 O que são funções de Callback via Props?
 
-Basicamente são funcões que criamos dentro do componente pai passamos via propriedade para dentro do componente filho e essa função pode ou não fazer uma alteração no componente pai.
+Basicamente são funcões que criamos dentro do componente pai, passamos via propriedade para dentro do componente filho, e essa função pode ou não fazer uma alteração no componente pai.
 
 O que é renderização condicional?
 
 É renderizar algo condicionado a algo. Isto pode ser feito através do if, de uma condição ternária ou do short circuit evaluation.
+
+Sobre Inline Styles no React...
+
+Temos basicamente 3 diferenças ao trabalhar com inline styles dentro do react, são elas:
+- Não passamos uma string para a propriedade style e sim um objeto.
+- Ao atribuir valores para os nossos atributos, devemos atribuilos como uma string, ou seja, utilizando aspas.
+- Nas propriedades que possuem hifen, como por exemplo "font-family: " devemos usar camel case, sendo assim, obteremos ao invés disso "fontFamily: ".
