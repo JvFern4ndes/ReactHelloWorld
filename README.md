@@ -79,3 +79,11 @@ As vantagens ao usar o Theming no Styled Components, são observadas ao trabalha
 O theming seria, portanto, centralizarmos na nossa aplicação, todas essas informações.
 
 Essas informações podem ser centralizadas dentro de um arquivo específico, para que estas possam ser utilizadas de maneira mais inteligente.
+
+O que é ThemeProvider?
+
+É um Provider da Context API.
+
+O que é Lifecycle?
+
+São as etapas pelas quais o componente passa até que ele seja renderizado.
