@@ -71,3 +71,11 @@ O que são Styled Components?
 É o CSS in JS, o principal beneficio do styled components é que ele trabalha com scoped classes e id's por padrão, ou seja, ele exerce o papel do CSS modules de criar hash's para as classes por padrão, nunca teremos conflitos por conta desse quesito.
 Outro ponto é a legibilidade, não vamos usar diretamente dentro do componente as tags HTML, vamos usar componentes estilizados.
 E o terceiro ponto é que o styled components roda dentro da web e do reactive native com a mesma sintaxe.
+
+O que é Theming?
+
+As vantagens ao usar o Theming no Styled Components, são observadas ao trabalharmos com Styleguide, que é um guia de estilo para desenvolvermos uma interface, nela temos a paleta de cores, o font-family, tamanhos de fonte, espaçamento, border-radius, é como se fosse o manual da marca, e serve para deixar as nossas páginas harmonicas. (Obs.: Nós como dev's não somos os responsáveis por criar o styleguide, este serviço cabe à equipe de design). (Obs. 2: Mas seria interessante aprender a desenvolver uma).
+
+O theming seria, portanto, centralizarmos na nossa aplicação, todas essas informações.
+
+Essas informações podem ser centralizadas dentro de um arquivo específico, para que estas possam ser utilizadas de maneira mais inteligente.
